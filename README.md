@@ -1,9 +1,29 @@
-**FreeCodeCamp**- Information Security and Quality Assurance
-------
+# Metric-Imperial Converter
 
-1) SET NODE_ENV to `test` without quotes
-2) Most logic will need done in `controllers/convertHandler.js` but do complete `routes/api.js`
-3) You will add any security features to `server.js`
-4) You will create all of the functional/unit tests in `tests/2_functional-tests.js` and `tests/1_unit-tests.js`
+A Information Security and Quality Assurance Project, part of Free Code Camp's curriculum
 
+## Description
+API for converting numerical values/units in other units.
 
+Allowed Units: 
+- gal: gallons
+- l: liters
+- lbs: pounds
+- kg: kilograms
+- mi: miles
+- km: kilometers
+
+## Usage
+- /api/convert?input=4gal
+- /api/convert?input=1/2km
+
+A *JSON-object* is returned, e.g.:
+
+    {
+      initNum: 3.1,
+      initUnit: 'mi',
+      returnNum: 5.0000008,
+      returnUnit: 'km',
+      string: '3.1 miles converts to 5.00002 kilometers'
+    }
+ 
