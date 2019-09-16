@@ -27,6 +27,3 @@ A *JSON-object* is returned, e.g.:
       string: '3.1 miles converts to 5.00002 kilometers'
     }
  
-=======
-# s-projects18-fcc-61
-...
